@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login">
+  <test thread-count="5" name="logintest">
+    <classes>
+      <class name="com.swaglab.login.TC01"/>
+      <class name="com.swaglab.login.Tc07"/>
+      <class name="com.swaglab.login.Tc06"/>
+      <class name="com.swaglab.login.Tc08"/>
+      <class name="com.swaglab.login.Tc03"/>
+      <class name="com.swaglab.login.Tc02"/>
+      <class name="com.swaglab.login.Tc05"/>
+      <class name="com.swaglab.login.Tc04"/>
+    </classes>
+  </test> <!-- logintest -->
+</suite> <!-- Login -->

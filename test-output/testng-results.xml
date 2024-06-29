@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-28T11:59:55 IST" name="Default suite" finished-at="2024-06-28T11:59:58 IST" duration-ms="2842">
+    <groups>
+    </groups>
+    <test started-at="2024-06-28T11:59:55 IST" name="Default test" finished-at="2024-06-28T11:59:58 IST" duration-ms="2842">
+      <class name="com.swaglab.Productpage.Tc02">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.swaglab.Productpage.Tc02@543588e6]" started-at="2024-06-28T11:59:55 IST" name="browserLaunch" finished-at="2024-06-28T11:59:57 IST" duration-ms="1888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="tc02()[pri:0, instance:com.swaglab.Productpage.Tc02@543588e6]" started-at="2024-06-28T11:59:57 IST" name="tc02" description="All products should have the particular image" finished-at="2024-06-28T11:59:58 IST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+      </class> <!-- com.swaglab.Productpage.Tc02 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
