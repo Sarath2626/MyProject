@@ -25,7 +25,7 @@ public class Tc04 extends Base{
 		
 		 String actual = loginpage.getProductbrandname().getText();
 			
-			//System.out.println(actual);
+			//System.out.println(actual);  
 
 	        String expected = "Sauce Labs Backpack";
 
