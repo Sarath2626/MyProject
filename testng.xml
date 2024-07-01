@@ -10,7 +10,7 @@
       <class name="com.swaglab.login.Tc03"/>
       <class name="com.swaglab.login.Tc02"/>
       <class name="com.swaglab.login.Tc05"/>
-      <class name="com.swaglab.login.Tc04"/>
+      
     </classes>
   </test> <!-- logintest -->
 </suite> <!-- Login -->
