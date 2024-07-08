@@ -1,12 +1,12 @@
 package com.swaglab.Productpage;
 
-import org.openqa.selenium.Alert;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.swaglab.Helper.Base;
 import com.swaglab.constant.constant;
 
+import pojo.comproductpage;
 import pojo.comswaglablogin;
 
 public class Tc01 extends Base{
@@ -25,7 +25,9 @@ public class Tc01 extends Base{
 
 		loginpage.getLoginbutton().click();
 		
-        String actual = loginpage.getProductpage().getText();
+		comproductpage pp = new comproductpage();
+		
+        String actual = pp.getProductpage().getText();
 		
 		//System.out.println(actual);
 

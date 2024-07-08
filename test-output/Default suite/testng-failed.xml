@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.swaglab.Productpage.Tc02">
+      <class name="com.swaglab.Productpage.Tc06">
         <methods>
-          <include name="browserLaunch"/>
           <include name="tc03"/>
+          <include name="browserLaunch"/>
         </methods>
-      </class> <!-- com.swaglab.Productpage.Tc02 -->
+      </class> <!-- com.swaglab.Productpage.Tc06 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

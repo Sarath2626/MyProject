@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import com.swaglab.Helper.Base;
 import com.swaglab.constant.constant;
 
+import pojo.comproductpage;
 import pojo.comswaglablogin;
 
 public class Tc03 extends Base{
@@ -23,7 +24,10 @@ public class Tc03 extends Base{
 
 		loginpage.getLoginbutton().click();
 		
-		 String actual = loginpage.getProductbrandname().getText();
+		comproductpage pp = new comproductpage();
+		
+		
+		 String actual = pp.getProductbrandname().getText();
 			
 			System.out.println(actual);
 

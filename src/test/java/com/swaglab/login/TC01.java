@@ -19,8 +19,10 @@ public class TC01 extends Base {
 		driver.get(constant.url);
 
 		Assert.assertEquals(driver.getCurrentUrl(), constant.url);
+		
+		   
 	
 
 	}
-
+	
 }
