@@ -25,10 +25,9 @@ public class Tc08 extends Base{
 
 		loginpage.getLoginbutton().click();
 		
-
 		comproductpage pp = new comproductpage();
 		
-		 pp.getFilter();
+		 
 	
 		
 

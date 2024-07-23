@@ -1,7 +1,5 @@
 package pojo;
 
-import java.util.List;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -25,7 +23,7 @@ public class comswaglablogin extends Base {
 		this.username = username;
 	}
 
-	public WebElement getPassword() {s
+	public WebElement getPassword() {
 		return password;
 	}
 
@@ -61,9 +59,6 @@ public class comswaglablogin extends Base {
 	WebElement logoutbutton;
 
 	
-
-	
-
 	public WebElement getLogoutbutton() {
 		return logoutbutton;
 	}

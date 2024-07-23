@@ -12,7 +12,7 @@ import pojo.comswaglablogin;
 
 public class Tc06 extends Base{
 	
-	@Test(description = "All the products  should have the addtocart button ")
+	@Test(description = "All the products should have the addtocart button ")
 
 	public static void tc03() throws InterruptedException {
 

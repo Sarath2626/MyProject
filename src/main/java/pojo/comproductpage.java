@@ -35,7 +35,17 @@ public class comproductpage extends Base{
 		@FindBy(xpath = "//select[@class='product_sort_container']")
 		List<WebElement> Filter;
 		
+		@FindBy(xpath ="//div[@class='inventory_item_name']")
+		List<WebElement> hyperlink;	
 		
+
+		public List<WebElement> getHyperlink() {
+			return hyperlink;
+		}
+
+		public void setHyperlink(List<WebElement> hyperlink) {
+			this.hyperlink = hyperlink;
+		}
 
 		public List<WebElement> getFilter() {
 			return Filter;
@@ -55,7 +65,7 @@ public class comproductpage extends Base{
 
 		public WebElement getProductpage() {
 			return productpage;
-		}
+		}    
 
 		public WebElement getHyperlinks() {
 			return Hyperlinks;
